@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/0579b9da-3707-4af9-b69e-fa0b0ac1c19e)
 
 ## Valid Input
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/753cbe76-8b4d-48b1-bb19-330dce0c1783)
 
 ## Movie Page
 ![image](https://github.com/user-attachments/assets/a9c695fe-1118-4cb7-a75b-ab0e3901ae84)
