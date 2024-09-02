@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/139653e8-26b8-4e01-8aa3-275b6d924e9c)# Tugas Day 4 Digistar Class Hacker Front-End
+# Tugas Day 4 Digistar Class Hacker Front-End
 
 ## Login Page
 ![image](https://github.com/user-attachments/assets/e21f0af6-2d51-42a6-b58d-d386df7b9eb2)
