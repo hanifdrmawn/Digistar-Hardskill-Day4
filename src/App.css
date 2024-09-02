@@ -236,7 +236,7 @@ h2 {
   margin-bottom: 15px;
 }
 
-.error-popup {
+.error-popup, .welcome-popup {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -246,6 +246,13 @@ h2 {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   animation: fadeOut 5s forwards;
+}
+
+.welcome-popup{
+  z-index: 100;
+  left: 40%;
+  right: 40%;
+  top: 40px;
 }
 
 @keyframes fadeOut {

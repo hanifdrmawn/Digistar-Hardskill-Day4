@@ -10,7 +10,8 @@ class App extends React.Component {
       text: '',
       search: '',
       isLoggedIn: false,
-      showWelcomeMessage: false,
+      Welcome: '',
+      showWelcomePopup: false,
     };
     this.onChangeText = this.onChangeText.bind(this);
     this.onClickSearch = this.onClickSearch.bind(this);
@@ -34,11 +35,16 @@ class App extends React.Component {
   }
 
   handleLogin(email, password) {
-    this.setState({ isLoggedIn: true, showWelcomeMessage: true }, () => {
+    this.setState({ 
+      Welcome: 'Selamat Datang!', 
+      isLoggedIn: true, 
+      showWelcomePopup: true 
+    }, () => {
       setTimeout(() => {
-          this.setState({ showWelcomeMessage: false }); 
+        this.setState({ showWelcomePopup: false });
       }, 5000);
-  });  }
+    });  
+  }
 
   handleLogout() {
     this.setState({ isLoggedIn: false });
@@ -51,10 +57,10 @@ class App extends React.Component {
 
     return (
       <>
-        {this.state.showWelcomeMessage && (
-          <div className="welcome-popup">
-            Selamat Datang!
-          </div>
+        {this.state.showWelcomePopup && (
+            <div className="welcome-popup">
+                {this.state.Welcome}
+            </div>
         )}
         <div className="header">
           <h1>HaFlix Movies</h1>
