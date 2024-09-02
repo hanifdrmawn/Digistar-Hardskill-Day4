@@ -1,8 +1,16 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/139653e8-26b8-4e01-8aa3-275b6d924e9c)# Tugas Day 4 Digistar Class Hacker Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Login Page
+![image](https://github.com/user-attachments/assets/e21f0af6-2d51-42a6-b58d-d386df7b9eb2)
 
-Currently, two official plugins are available:
+## Invalid Input
+![image](https://github.com/user-attachments/assets/39cd231f-70e8-4ba8-b043-b8c4256e5af4)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Empty Input
+![image](https://github.com/user-attachments/assets/0579b9da-3707-4af9-b69e-fa0b0ac1c19e)
+
+## Movie Page
+![image](https://github.com/user-attachments/assets/a9c695fe-1118-4cb7-a75b-ab0e3901ae84)
+
+## Desc Movie
+![image](https://github.com/user-attachments/assets/9771a581-50f1-4b30-977e-c533db51c41c)
