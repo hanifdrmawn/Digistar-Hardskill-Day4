@@ -31,6 +31,7 @@ class Login extends React.Component {
         const { email, password } = this.state;
 
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const passwordRegex = /^(?=.*[A-Z]).{8,}$/;
 
         if (email === '' || password === '') {
             this.setState({ error: 'Email dan Password tidak boleh kosong!', showErrorPopup: true }, () => {
@@ -39,15 +40,18 @@ class Login extends React.Component {
                 }, 5000);
             });
         } else if (!emailRegex.test(email)) {
-            // this.setState({ error: 'Email yang Anda Masukkan Salah!' });
             this.setState({ error: 'Email yang Anda Masukkan Salah!', showErrorPopup: true }, () => {
                 setTimeout(() => {
                     this.setState({ showErrorPopup: false });
                 }, 5000);
             });
+        } else if (!passwordRegex.test(password)) {
+            this.setState({ error: 'Password minimal 8 karakter dan mengandung satu huruf kapital!', showErrorPopup: true }, () => {
+                setTimeout(() => {
+                    this.setState({ showErrorPopup: false });
+                }, 5000);
+            });
         } else {
-            // this.setState({ error: '' });
-            // this.props.onLogin(email, password);
             this.setState({ error: '', showErrorPopup: false });
             this.props.onLogin(email, password);
         }
